@@ -5,7 +5,7 @@ import ConfirmedBooking from "./Pages/ConfirmedBookingPag";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename={"/little-lemonv2/"}>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/Reservation" element={<BookingPage />} />
